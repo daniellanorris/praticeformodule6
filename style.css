@@ -2,6 +2,32 @@ button:hover {
     background-color: red;
 }
 
-a:visited {
+a:visited, a:focus {
     color: green;
 }
+
+ul li:nth-child(3) {
+    color: blue;
+}
+
+ul li:last-child {
+    color: yellowgreen;
+}
+
+ol li:first-of-type {
+    color: red;
+}
+
+ol li:nth-of-type(even) {
+    color: green;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+p::first-line {
+    color: blue;
+}
+
+h2 :hover::after {}
